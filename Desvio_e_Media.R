@@ -3,12 +3,12 @@
 culturas = data.frame(nome = c("Milho", "Soja"), altura = c(3000, 3000), largura = c(8000, 3000), area = c(24000000, 9000000))
 
 
-## A média das áreas das culturas em metros é:
+## A média das áreas das culturas em metros será:
 
 media = mean(culturas$area)
 print(media)
 
-## O desvio padrão das áreas das culturas em metros é:
+## O desvio padrão das áreas das culturas em metros será:
 
 desvio = sd(culturas$area)
 print(desvio)
